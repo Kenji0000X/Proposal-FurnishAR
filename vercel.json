@@ -1,0 +1,17 @@
+{
+  "buildCommand": "npm run build",
+  "outputDirectory": "dist",
+  "framework": "vite",
+  "nodeVersion": "22.x",
+  "headers": [
+    {
+      "source": "/(.*)",
+      "headers": [
+        {
+          "key": "Content-Security-Policy",
+          "value": "font-src 'self' vercel.com *.vercel.com vercel.live instant-preview-site.vercel.app instant-preview-site-9g6ql0qpc.vercel.sh *.gstatic.com *.public.blob.vercel-storage.com"
+        }
+      ]
+    }
+  ]
+}
