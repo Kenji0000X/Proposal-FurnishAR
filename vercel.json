@@ -1,4 +1,5 @@
 {
+  "installCommand": "npm install",
   "buildCommand": "npm run build",
   "outputDirectory": "dist",
   "framework": "vite",
@@ -9,7 +10,7 @@
       "headers": [
         {
           "key": "Content-Security-Policy",
-          "value": "font-src 'self' vercel.com *.vercel.com vercel.live instant-preview-site.vercel.app instant-preview-site-9g6ql0qpc.vercel.sh *.gstatic.com *.public.blob.vercel-storage.com"
+          "value": "font-src 'self' vercel.com *.vercel.com vercel.live instant-preview-site.vercel.app *.gstatic.com *.public.blob.vercel-storage.com k2mkucxia43oc7fa.public.blob.vercel-storage.com;"
         }
       ]
     }
