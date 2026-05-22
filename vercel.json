@@ -10,7 +10,7 @@
       "headers": [
         {
           "key": "Content-Security-Policy",
-          "value": "default-src 'self'; script-src 'self' 'unsafe-inline' 'unsafe-eval'; style-src 'self' 'unsafe-inline' *.gstatic.com; font-src 'self' vercel.com *.vercel.com vercel.live instant-preview-site.vercel.app *.gstatic.com *.public.blob.vercel-storage.com k2mkucxia43oc7fa.public.blob.vercel-storage.com data:; img-src 'self' data: blob: *.vercel.com *.public.blob.vercel-storage.com; connect-src 'self' *.vercel.com vercel.live;"
+          "value": "default-src 'self'; script-src 'self' 'unsafe-inline' 'unsafe-eval'; style-src 'self' 'unsafe-inline' *.gstatic.com; font-src 'self' vercel.com *.vercel.com vercel.live *.gstatic.com *.public.blob.vercel-storage.com k2mkucxia43oc7fa.public.blob.vercel-storage.com data:; img-src 'self' data: blob: *.vercel.com *.public.blob.vercel-storage.com; connect-src 'self' *.vercel.com vercel.live;"
         }
       ]
     }
